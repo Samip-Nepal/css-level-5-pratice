@@ -3,9 +3,13 @@ div{
     width: 100px;
     background-color: aqua;
     border: 1px double black;
+    transition-property: all;
+    transition-delay: 2s;
 }
 div:hover{
     background-color: brown;
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
 }
 div:active{
     background-color: rgb(255, 0, 0);
