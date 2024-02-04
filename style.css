@@ -1,0 +1,12 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px double black;
+}
+div:hover{
+    background-color: brown;
+}
+div:active{
+    background-color: rgb(255, 0, 0);
+}
