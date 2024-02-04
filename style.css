@@ -4,7 +4,9 @@ div{
     background-color: aqua;
     border: 1px double black;
     transition-property: all;
-    transition-delay: 2s;
+    transition-duration: 2s;
+    transition-timing-function: steps(6);
+
 }
 div:hover{
     background-color: brown;
