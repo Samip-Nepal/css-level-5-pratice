@@ -11,7 +11,7 @@ div{
     transition-duration: 2s;
     transition-timing-function: steps(6);
     transition-delay: 2s; */
-    transition: all 2s steps(5) 4s; 
+    transition: all 2s ease-in ; 
     /* rotate: 45deg; */
     /* transform: scale(2); */
 
@@ -20,7 +20,7 @@ div:hover{
     /* background-color: brown;
     color: beige;
     font-family: 'Courier New', Courier, monospace; */
-transform: scale(3);
+transform: translate(300px,400px);
 }
 div:active{
     background-color: rgb(255, 0, 0);
