@@ -20,7 +20,7 @@ div:hover{
     /* background-color: brown;
     color: beige;
     font-family: 'Courier New', Courier, monospace; */
-transform: translate(300px,400px);
+transform: skew(30deg);
 }
 div:active{
     background-color: rgb(255, 0, 0);
