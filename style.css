@@ -7,21 +7,21 @@ div{
     top: 290px;
     bottom: 300px;
     right: 200px;
-    /* transition-property: all;
-    transition-duration: 2s;
-    transition-timing-function: steps(6);
-    transition-delay: 2s; */
-    transition: all 2s ease-in ; 
-    /* rotate: 45deg; */
-    /* transform: scale(2); */
-
+    border-radius: 50%;
+ animation-name: myname;
+ animation-duration: 0.25s;
+ animation-timing-function: ease-in;
+animation-delay: 0.25s;
+animation-iteration-count: infinite;
+}
+@keyframes myname{
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color: green;
+    }
 }
 div:hover{
-    /* background-color: brown;
-    color: beige;
-    font-family: 'Courier New', Courier, monospace; */
-transform: skew(30deg);
-}
-div:active{
-    background-color: rgb(255, 0, 0);
+
 }
