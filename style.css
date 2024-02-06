@@ -13,7 +13,7 @@ div{
  animation-timing-function: ease-in;
 animation-delay: 0.25s;
 animation-iteration-count: infinite;
-animation-direction: normal;
+animation-direction: reverse;
 }
 @keyframes myname{
     from{
