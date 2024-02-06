@@ -17,11 +17,15 @@ animation-direction: reverse; */
 animation: myname 2s ease-in 1s infinite normal;
 }
 @keyframes myname{
-    from{
+    0%{
         left:0px;
         background-color: aqua;
     }
-    to{
+    25%{
+        background-color: blue;
+        color: white;
+    }
+    100%{
     left: 200px;
     background-color: brown;
     }
