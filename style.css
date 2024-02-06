@@ -8,19 +8,22 @@ div{
     bottom: 300px;
     right: 200px;
     border-radius: 50%;
- animation-name: myname;
+ /* animation-name: myname;
  animation-duration: 2s;
  animation-timing-function: ease-in;
 animation-delay: 0.25s;
 animation-iteration-count: infinite;
-animation-direction: reverse;
+animation-direction: reverse; */
+animation: myname 2s ease-in 1s infinite normal;
 }
 @keyframes myname{
     from{
         left:0px;
+        background-color: aqua;
     }
     to{
     left: 200px;
+    background-color: brown;
     }
 }
 
